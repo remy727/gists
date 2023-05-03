@@ -1,2 +1,1 @@
-# gists
-My gists
+# My gists
