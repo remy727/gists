@@ -1,0 +1,36 @@
+### Built-In `Exception` Classes(Ruby `3.2.1`)
+- `NoMemoryError`
+- `ScriptError`
+	- `LoadError`
+	- `NotImplementedError`
+	- `SyntaxError`
+- `SecurityError`
+- `SignalException`
+	- `Interrupt`
+- `StandardError`
+	- `ArgumentError`
+		- `UncaughtThrowError`
+	- `EncodingError`
+	- `FiberError`
+	- `IOError`
+		- `EOFError`
+	- `IndexError`
+		- `KeyError`
+		- `StopIteration`
+			- `ClosedQueueError`
+	- `LocalJumpError`
+	- `NameError`
+		- `NoMethodError`
+	- `RangeError`
+		- `FloatDomainError`
+	- `RegexpError`
+	- `RuntimeError`
+		- `FrozenError`
+	- `SystemCallError`
+		- Errno::*
+	- `ThreadError`
+	- `TypeError`
+	- `ZeroDivisionError`
+- `SystemExit`
+- `SystemStackError`
+- fatal
